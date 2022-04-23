@@ -1,1 +1,1 @@
-mkisofs -o ./output/centos_bios.iso -b isolinux.bin -c boot.cat -no-emul-boot -boot-load-size 4 -boot-info-table ./bios
+mkisofs -o ../testbios.iso -b isolinux.bin -c boot.cat -no-emul-boot -boot-load-size 4 -boot-info-table ./
