@@ -1,1 +1,1 @@
-mkisofs -o ../testbios.iso -b isolinux.bin -c boot.cat -no-emul-boot -boot-load-size 4 -boot-info-table ./
+xorriso -as mkisofs -o ../testbios2.iso -b isolinux.bin -c boot.cat -no-emul-boot -boot-load-size 4 -boot-info-table ./
